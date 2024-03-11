@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.band {
+    max-width: 50%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.theBand {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.theBandImg img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tourDates {
+    max-width: 50%;
+    height: auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tourDates 
